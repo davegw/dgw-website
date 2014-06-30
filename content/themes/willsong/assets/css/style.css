@@ -293,6 +293,9 @@ nav.pagination .newer-posts {
 #share_post_willsong .fa-twitter:hover {
   color: #4099ff;
 }
+#share_post_willsong .fa-linkedin:hover {
+  color: #007bb6;
+}
 #share_post_willsong .fa-facebook:hover {
   color: #3b5998;
 }
