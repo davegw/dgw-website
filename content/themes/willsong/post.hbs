@@ -12,9 +12,9 @@
         <article class="{{post_class}} col-off2lg8-off2md8-off1sm10">
 
             <header class="reading_post_header">
-                <span class="fa fa-clock-o"></span> <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> <br>
-                <span>{{tags prefix=""}}</span>
                 <h2 class="post_title">{{{title}}}</h2>
+                <span class="fa fa-clock-o"></span> <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time> <br>
+                {{!-- <span>{{tags prefix=""}}</span> --}}
             </header>
 
             {{content }}

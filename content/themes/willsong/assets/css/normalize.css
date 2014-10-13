@@ -176,6 +176,12 @@ samp {
     font-size: 1em;
 }
 
+pre,
+code {
+    font-size: 0.9em;
+    line-height: 1.25em;
+}
+
 /**
  * Improve readability of pre-formatted text in all browsers.
  */

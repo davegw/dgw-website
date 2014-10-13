@@ -140,7 +140,7 @@ h6 {
 }
 #content_column_willsong article {
   color: #303030;
-  padding: 80px 0;
+  padding: 20px 0 40px 0;
   position: relative;
 }
 #content_column_willsong article .left_side_article {
@@ -388,6 +388,9 @@ nav.pagination .newer-posts {
   font-size: 0.7em;
   margin: 0 40px;
   margin-top: 100px;
+}
+h2.post_title {
+  margin-bottom: 0;
 }
 /*	H.
 *	MEDIA QUERIES
