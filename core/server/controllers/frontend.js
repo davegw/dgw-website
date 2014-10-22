@@ -369,6 +369,22 @@ frontendControllers = {
                 });
             });
         }).otherwise(handleError(next));
+    },
+    'sitemap' : function (req, res, next) {
+        require('fs')
+            .readFile(require('path')
+            .join(__dirname, '/../../../content/sitemap.xml'), "binary", function(err, file) {
+                if(err) {
+                    res.writeHeader(500, {"Content-Type": "text/plain"});
+                    res.write(err + "\n");
+                    res.end();
+                }
+                else{
+                    res.writeHeader(200);
+                    res.write(file, "binary");
+                    res.end();
+                }
+            });
     }
 };
 

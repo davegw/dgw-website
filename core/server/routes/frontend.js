@@ -17,6 +17,7 @@ frontendRoutes = function (server) {
         res.set({'Cache-Control': 'public, max-age=' + ONE_YEAR_S});
         res.redirect(301, subdir + '/rss/');
     });
+    server.get('/sitemap.xml/', frontend.sitemap);
 
 
     server.get('/tag/:slug/rss/', frontend.rss);
