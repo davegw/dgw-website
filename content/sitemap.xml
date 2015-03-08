@@ -21,6 +21,11 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>http://www.davidgw.com/ruby-procs-lambdas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>http://www.davidgw.com/climbing-the-quadtree/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
